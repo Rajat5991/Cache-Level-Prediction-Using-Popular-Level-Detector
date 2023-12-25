@@ -83,11 +83,11 @@ Overall Summary:
 
 The cache-level predictor demonstrates effectiveness in reducing CPI and improving performance across various benchmarks and instances. However, there are instances where the predictor leads to an unexpected increase in CPI, suggesting that its impact is workload dependent. Further investigation and tuning may be required to optimize the predictor's performance for specific workloads and instances.
 
-<img width="468" alt="image" src="https://github.com/Rajat5991/Cache-Level-Prediction-Using-Popular-Level-Detector/assets/154459536/825aab8e-4ef3-4c23-a71b-974f8d9fce3d">
+<img width="568" alt="image" src="https://github.com/Rajat5991/Cache-Level-Prediction-Using-Popular-Level-Detector/assets/154459536/825aab8e-4ef3-4c23-a71b-974f8d9fce3d">
 
 <img width="455" alt="image" src="https://github.com/Rajat5991/Cache-Level-Prediction-Using-Popular-Level-Detector/assets/154459536/d31a00b4-0208-4eb4-a176-7358c1b22ade">
 
-# Conclusion: 
+# 6. Conclusion: 
 
 We observed a cache level predictor enhances the lookup strategy in multiple-cache setting. This technique filters unnecessary accesses to intermediate levels, and thus reduces the cumulative miss latency. The proposed system enhances the CPI by 4% compared to the baseline.
 
