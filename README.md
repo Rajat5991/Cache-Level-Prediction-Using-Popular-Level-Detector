@@ -9,8 +9,7 @@ The project is based on the research paper titled "Reducing Load Latency with Ca
 Simulator Used:
 The zsim simulator is employed for conducting experiments in the project. The simulator models a 3-level cache hierarchy and is used to evaluate level prediction with an advanced prefetch scheme.
 
-Simulator Version & Source:
-We have re-used the zsim simulator that we were provided with to complete our academic assignments.
+Simulator Version & Source: zsim simulator
 
 # 2. Project Structure
 We have maintained the same hierarchy as that of zsim simulator code that we used for the academic assignments. The structure is as follows.
