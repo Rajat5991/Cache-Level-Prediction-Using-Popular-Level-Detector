@@ -22,7 +22,7 @@ We have maintained the same hierarchy as that of zsim simulator code that we use
 # 3. Libraries
 Library details are provided in a separate readme file placed inside zsim folder.
 
-### III. Environemnt setup
+### I. Environemnt setup
 
 Everytime you want to build or run zsim, you need to setup the environment variables first.
 
@@ -30,14 +30,14 @@ Everytime you want to build or run zsim, you need to setup the environment varia
 $ source setup_env
 ```
 
-##### IV. Compile zsim
+##### II. Compile zsim
 
 ```
 $ cd zsim
 $ scons -j4
 ```
 
-##### V. Launch a test to run
+##### III. Launch a test to run
 
 ```
 ./build/opt/zsim tests/simple.cfg
