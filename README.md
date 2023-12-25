@@ -42,4 +42,10 @@ $ scons -j4
 ```
 ./build/opt/zsim tests/simple.cfg
 ```
+# 4. Benchmarks
 
+  Our evaluation included a diverse set of benchmarks:
+  
+PARSEC: blackscholes, bodytrack, canneal, dedup, fluidanimate, streamcluster, swaptions, x264.
+
+# 5. Result Analysis
