@@ -85,7 +85,7 @@ The cache-level predictor demonstrates effectiveness in reducing CPI and improvi
 
 <img width="568" alt="image" src="https://github.com/Rajat5991/Cache-Level-Prediction-Using-Popular-Level-Detector/assets/154459536/825aab8e-4ef3-4c23-a71b-974f8d9fce3d">
 
-<img width="455" alt="image" src="https://github.com/Rajat5991/Cache-Level-Prediction-Using-Popular-Level-Detector/assets/154459536/d31a00b4-0208-4eb4-a176-7358c1b22ade">
+<img width="500" alt="image" src="https://github.com/Rajat5991/Cache-Level-Prediction-Using-Popular-Level-Detector/assets/154459536/d31a00b4-0208-4eb4-a176-7358c1b22ade">
 
 # 6. Conclusion: 
 
