@@ -6,10 +6,12 @@ The goal of the project is to address high load latency caused by deep cache hie
 Project Source (PDF Paper):
 The project is based on the research paper titled "Reducing Load Latency with Cache Level Prediction" by Majid Jalili and Mattan Erez from The University of Texas at Austin. The authors can be contacted at majid,mattan.erezg@utexas.edu.
 
+Popular Levels Detector
+
+We use 3 counters, one per cache level and main memory. Upon a hit at a level the corresponding counter is incremented by 1 and others are decremented by 1. This helps to rapidly find popular levels and prevents counter saturation. When a prediction is required, candidates are selected as follows. The counters are sorted and the topmost is picked as the first candidate. If its counter is higher than a threshold, then only this level is selected as the level to look up. Otherwise, the level with the second highest counter is also considered to be a possible destination (two parallel lookup targets). If again the sum of the first and the second counters does not reach a predefined threshold, the third level is also included (three parallel lookup targets).
+
 Simulator Used:
 The zsim simulator is employed for conducting experiments in the project. The simulator models a 3-level cache hierarchy and is used to evaluate level prediction with an advanced prefetch scheme.
-
-Simulator Version & Source: zsim simulator
 
 # 2. Project Structure
 We have maintained the same hierarchy as that of zsim simulator code that we used for the academic assignments. The structure is as follows.
