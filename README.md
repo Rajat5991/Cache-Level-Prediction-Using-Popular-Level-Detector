@@ -79,7 +79,7 @@ The level predictor demonstrates a CPI reduction for instances westmere-0, westm
 
 The level predictor leads to a CPI reduction for instances westmere-0, westmere-1, westmere-2, westmere-3, westmere-4, westmere-5, and westmere-7. Instance westmere-6, however, shows an increase in CPI with the level predictor. Generally, the predictor is effective in improving performance across most instances.
 
-Overall Summary:
+Summary:
 
 The cache-level predictor demonstrates effectiveness in reducing CPI and improving performance across various benchmarks and instances. However, there are instances where the predictor leads to an unexpected increase in CPI, suggesting that its impact is workload dependent. Further investigation and tuning may be required to optimize the predictor's performance for specific workloads and instances.
 
